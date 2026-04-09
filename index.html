@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chandan Raj — Software Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#hero"><span class="brand-nr">CR</span><span class="brand-dot">.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="toggler-line"></span><span class="toggler-line"></span><span class="toggler-line"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item ms-lg-3"><a class="btn-nav-cta" href="#resume">Download CV</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+        <div class="hero-stripe"></div>
+        <div class="container hero-container">
+            <div class="row align-items-center min-vh-100 g-5">
+                <div class="col-lg-6 hero-left">
+                    <div class="hero-eyebrow"><span class="ey-line"></span><span>Available for new opportunities</span>
+                    </div>
+                    <h1 class="hero-title">Crafting Digital<br />Experiences<br />with <em>Precision</em></h1>
+                    <p class="hero-nametag">Chandan Raj &mdash; Software Developer</p>
+                    <p class="hero-desc">4+ years building scalable, high-performance web applications. Specialising in
+                        React, Next.js and Azure-powered solutions that users love.</p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn-primary-nr">View My Work <i class="bi bi-arrow-right"></i></a>
+                        <a href="#contact" class="btn-ghost-nr">Let's Connect</a>
+                    </div>
+                    <div class="hero-counters">
+                        <div class="hc-block"><span class="hc-num">4+</span><span class="hc-label">Years Exp.</span>
+                        </div>
+                        <div class="hc-sep"></div>
+                        <div class="hc-block"><span class="hc-num">30+</span><span class="hc-label">Projects</span>
+                        </div>
+                        <div class="hc-sep"></div>
+                        <div class="hc-block"><span class="hc-num">15+</span><span class="hc-label">Clients</span></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-center justify-content-lg-end">
+                    <div class="hero-photo-wrap">
+                        <div class="photo-deco deco-tl"></div>
+                        <div class="photo-deco deco-br"></div>
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=560&q=85&fit=crop&crop=face"
+                            alt="Chandan Raj" class="hero-photo" />
+                        <div class="photo-chip chip-1"><img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                                width="16" alt="" /> React</div>
+                        <div class="photo-chip chip-2"><img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+                                width="16" alt="" /> Next.js</div>
+                        <div class="photo-chip chip-3"><img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
+                                width="16" alt="" /> Azure</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="hero-scroll"><span>Scroll Down</span><i class="bi bi-arrow-down"></i></a>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section-gap">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5">
+                    <div class="about-visual">
+                        <img src="https://images.unsplash.com/photo-1549692520-acc6669e2f0c?w=640&q=85&fit=crop"
+                            alt="Developer workspace" class="about-img" />
+                        <div class="about-badge"><span class="ab-num">4+</span><span class="ab-txt">Years
+                                of<br />Excellence</span></div>
+                        <div class="code-snip">
+                            <span><span class="cs-kw">const</span> <span class="cs-var">developer</span> = {</span>
+                            <span>&nbsp;&nbsp;<span class="cs-key">name:</span> <span class="cs-str">"Chandan
+                                    Raj"</span>,</span>
+                            <span>&nbsp;&nbsp;<span class="cs-key">stack:</span> <span class="cs-str">"React +
+                                    Next"</span></span>
+                            <span>};</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="section-eyebrow">About Me</div>
+                    <h2 class="section-heading">The Developer Behind<br />the <em>Code</em></h2>
+                    <p class="body-para mt-4">I'm Chandan Raj, a Software Developer based in India with a passion for
+                        building products that are as beautiful as they are functional. With 4+ years of experience
+                        across startups and enterprise teams, I've led front-end architecture, integrated cloud
+                        pipelines on Azure, and shipped 30+ products used by thousands.</p>
+                    <p class="body-para">I believe great interfaces are invisible — they guide, delight, and perform
+                        without friction. My approach blends engineering rigour with a designer's sensibility to deliver
+                        results that clients and end-users both love.</p>
+                    <div class="row g-3 mt-3">
+                        <div class="col-sm-6">
+                            <div class="info-row"><i class="bi bi-person"></i>
+                                <div><span class="ir-lbl">Name</span><span class="ir-val">Chandan Raj</span></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="info-row"><i class="bi bi-briefcase"></i>
+                                <div><span class="ir-lbl">Role</span><span class="ir-val">Software Developer</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="info-row"><i class="bi bi-geo-alt"></i>
+                                <div><span class="ir-lbl">Location</span><span class="ir-val">New Delhi, India</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="info-row"><i class="bi bi-envelope"></i>
+                                <div><span class="ir-lbl">Email</span><span class="ir-val">Chandan@dev.io</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-4 d-flex align-items-center gap-3 flex-wrap">
+                        <a href="#resume" class="btn-primary-nr">Download Resume <i class="bi bi-download"></i></a>
+                        <div class="d-flex gap-2">
+                            <a href="#" class="s-icon"><i class="bi bi-github"></i></a>
+                            <a href="#" class="s-icon"><i class="bi bi-linkedin"></i></a>
+                            <a href="#" class="s-icon"><i class="bi bi-twitter-x"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section-gap bg-tint">
+        <div class="container">
+            <div class="text-center mb-5">
+                <div class="section-eyebrow mx-auto">Tech Stack</div>
+                <h2 class="section-heading">Skills &amp; <em>Expertise</em></h2>
+                <p class="section-sub">Technologies mastered over 4+ years of professional development</p>
+            </div>
+            <ul class="nav skill-tabs justify-content-center mb-5" role="tablist">
+                <li><button class="stab active" data-bs-toggle="tab" data-bs-target="#sfrontend">Frontend</button></li>
+                <li><button class="stab" data-bs-toggle="tab" data-bs-target="#stools">Tools &amp; Cloud</button></li>
+                <li><button class="stab" data-bs-toggle="tab" data-bs-target="#ssoft">Soft Skills</button></li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="sfrontend">
+                    <div class="row g-4">
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="skill-tile">
+                                <div class="st-icon"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                                        alt="React" /></div><span class="st-name">React</span>
+                                <div class="st-bar">
+                                    <div class="st-fill" style="--w:95%"></div>
+                                </div><span class="st-pct">95%</span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="skill-tile">
+                                <div class="st-icon"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+                                        alt="Next.js" /></div><span class="st-name">Next.js</span>
+                                <div class="st-bar">
+                                    <div class="st-fill" style="--w:90%"></div>
+                                </div><span class="st-pct">90%</span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="skill-tile">
+                                <div class="st-icon"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                                        alt="JS" /></div><span class="st-name">JavaScript</span>
+                                <div class="st-bar">
+                                    <div class="st-fill" style="--w:96%"></div>
+                                </div><span class="st-pct">96%</span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="skill-tile">
+                                <div class="st-icon"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                                        alt="TS" /></div><span class="st-name">TypeScript</span>
+                                <div class="st-bar">
+                                    <div class="st-fill" style="--w:88%"></div>
+                                </div><span class="st-pct">88%</span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="skill-tile">
+                                <div class="st-icon"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                                        alt="HTML5" /></div><span class="st-name">HTML5</span>
+                                <div class="st-bar">
+                                    <div class="st-fill" style="--w:98%"></div>
+                                </div><span class="st-pct">98%</span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="skill-tile">
+                                <div class="st-icon"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                                        alt="CSS3" /></div><span class="st-name">CSS3</span>
+                                <div class="st-bar">
+                                    <div class="st-fill" style="--w:95%"></div>
+                                </div><span class="st-pct">95%</span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="skill-tile">
+                                <div class="st-icon"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                                        alt="Bootstrap" /></div><span class="st-name">Bootstrap</span>
+                                <div class="st-bar">
+                                    <div class="st-fill" style="--w:92%"></div>
+                                </div><span class="st-pct">92%</span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="skill-tile">
+                                <div class="st-icon"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"
+                                        alt="MUI" /></div><span class="st-name">Material UI</span>
+                                <div class="st-bar">
+                                    <div class="st-fill" style="--w:85%"></div>
+                                </div><span class="st-pct">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="stools">
+                    <div class="row g-4">
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="skill-tile">
+                                <div class="st-icon"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
+                                        alt="Azure" /></div><span class="st-name">Azure</span>
+                                <div class="st-bar">
+                                    <div class="st-fill" style="--w:82%"></div>
+                                </div><span class="st-pct">82%</span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="skill-tile">
+                                <div class="st-icon"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                                        alt="Git" /></div><span class="st-name">Git</span>
+                                <div class="st-bar">
+                                    <div class="st-fill" style="--w:93%"></div>
+                                </div><span class="st-pct">93%</span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="skill-tile">
+                                <div class="st-icon"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                                        alt="GitHub" /></div><span class="st-name">GitHub</span>
+                                <div class="st-bar">
+                                    <div class="st-fill" style="--w:90%"></div>
+                                </div><span class="st-pct">90%</span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="skill-tile">
+                                <div class="st-icon"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+                                        alt="Docker" /></div><span class="st-name">Docker</span>
+                                <div class="st-bar">
+                                    <div class="st-fill" style="--w:72%"></div>
+                                </div><span class="st-pct">72%</span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="skill-tile">
+                                <div class="st-icon"><i class="bi bi-gear-wide-connected"
+                                        style="font-size:2rem;color:var(--accent)"></i></div><span
+                                    class="st-name">CI/CD</span>
+                                <div class="st-bar">
+                                    <div class="st-fill" style="--w:83%"></div>
+                                </div><span class="st-pct">83%</span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="skill-tile">
+                                <div class="st-icon"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                                        alt="Node.js" /></div><span class="st-name">Node.js</span>
+                                <div class="st-bar">
+                                    <div class="st-fill" style="--w:74%"></div>
+                                </div><span class="st-pct">74%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="ssoft">
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="soft-tile"><i class="bi bi-people"></i><span>Team Leadership</span></div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="soft-tile"><i class="bi bi-chat-square-dots"></i><span>Communication</span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="soft-tile"><i class="bi bi-lightbulb"></i><span>Problem Solving</span></div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="soft-tile"><i class="bi bi-clock"></i><span>Time Management</span></div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="soft-tile"><i class="bi bi-arrow-repeat"></i><span>Agile / Scrum</span></div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="soft-tile"><i class="bi bi-zoom-in"></i><span>Attention to Detail</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section-gap">
+        <div class="container">
+            <div class="text-center mb-5">
+                <div class="section-eyebrow mx-auto">Career Path</div>
+                <h2 class="section-heading">Work <em>Experience</em></h2>
+            </div>
+            <div class="exp-timeline">
+                <div class="exp-item">
+                    <div class="exp-year-col"><span class="exp-yr">2022 — Now</span></div>
+                    <div class="exp-dot-col">
+                        <div class="exp-dot"></div>
+                        <div class="exp-line"></div>
+                    </div>
+                    <div class="exp-card">
+                        <div class="exp-card-head">
+                            <div class="exp-icon-box"><i class="bi bi-building-check"></i></div>
+                            <div>
+                                <h4 class="exp-role">Senior Frontend Developer</h4><span class="exp-company">TechNova
+                                    Solutions</span>
+                            </div>
+                            <span class="exp-badge">Full-time</span>
+                        </div>
+                        <p class="exp-desc">Led a cross-functional team of 6 developers to architect a React + Next.js
+                            platform serving 200K+ monthly active users. Implemented Azure DevOps CI/CD pipelines,
+                            slashing deployment time by 60%. Drove TypeScript adoption and mentored junior developers
+                            across the codebase.</p>
+                        <div class="d-flex flex-wrap gap-2 mt-3"><span class="e-tag">React</span><span
+                                class="e-tag">Next.js</span><span class="e-tag">TypeScript</span><span
+                                class="e-tag">Azure</span><span class="e-tag">CI/CD</span></div>
+                    </div>
+                </div>
+                <div class="exp-item">
+                    <div class="exp-year-col"><span class="exp-yr">2021 — 2022</span></div>
+                    <div class="exp-dot-col">
+                        <div class="exp-dot"></div>
+                        <div class="exp-line"></div>
+                    </div>
+                    <div class="exp-card">
+                        <div class="exp-card-head">
+                            <div class="exp-icon-box"><i class="bi bi-grid-3x3-gap"></i></div>
+                            <div>
+                                <h4 class="exp-role">Frontend Developer</h4><span class="exp-company">Pixel Labs</span>
+                            </div>
+                            <span class="exp-badge">Full-time</span>
+                        </div>
+                        <p class="exp-desc">Built responsive, accessible SaaS UIs using React and Material UI.
+                            Translated Figma designs into pixel-perfect components, integrated RESTful APIs, and
+                            improved Lighthouse performance score by 40% through code splitting and lazy loading
+                            strategies.</p>
+                        <div class="d-flex flex-wrap gap-2 mt-3"><span class="e-tag">React</span><span
+                                class="e-tag">Material UI</span><span class="e-tag">REST API</span><span
+                                class="e-tag">JavaScript</span></div>
+                    </div>
+                </div>
+                <div class="exp-item">
+                    <div class="exp-year-col"><span class="exp-yr">2020 — 2021</span></div>
+                    <div class="exp-dot-col">
+                        <div class="exp-dot"></div>
+                    </div>
+                    <div class="exp-card">
+                        <div class="exp-card-head">
+                            <div class="exp-icon-box"><i class="bi bi-code-slash"></i></div>
+                            <div>
+                                <h4 class="exp-role">Junior Web Developer</h4><span class="exp-company">CodeCraft
+                                    Agency</span>
+                            </div>
+                            <span class="exp-badge">Full-time</span>
+                        </div>
+                        <p class="exp-desc">Developed responsive websites for 10+ clients using HTML, CSS, Bootstrap and
+                            JavaScript. Built strong foundations in Git workflows, cross-browser compatibility and web
+                            performance optimisation across e-commerce and landing page projects.</p>
+                        <div class="d-flex flex-wrap gap-2 mt-3"><span class="e-tag">HTML/CSS</span><span
+                                class="e-tag">Bootstrap</span><span class="e-tag">JavaScript</span><span
+                                class="e-tag">Git</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section-gap bg-tint">
+        <div class="container">
+            <div class="text-center mb-5">
+                <div class="section-eyebrow mx-auto">Portfolio</div>
+                <h2 class="section-heading">Featured <em>Projects</em></h2>
+                <p class="section-sub">A curated selection of my most impactful work</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="proj-card">
+                        <div class="proj-img-wrap"><img
+                                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=640&q=80&fit=crop"
+                                alt="Analytics" class="proj-img" />
+                            <div class="proj-overlay"><a href="#" class="proj-btn"><i class="bi bi-github"></i>
+                                    Code</a><a href="#" class="proj-btn">Live <i class="bi bi-arrow-up-right"></i></a>
+                            </div><span class="proj-badge">Featured</span>
+                        </div>
+                        <div class="proj-body">
+                            <h5 class="proj-title">Analytics Dashboard Pro</h5>
+                            <p class="proj-desc">Real-time analytics platform with Next.js and TypeScript, Azure-backed
+                                APIs and role-based access control for 200K+ users.</p>
+                            <div class="d-flex flex-wrap gap-2 mt-3"><span class="e-tag">Next.js</span><span
+                                    class="e-tag">TypeScript</span><span class="e-tag">Azure</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="proj-card">
+                        <div class="proj-img-wrap"><img
+                                src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=640&q=80&fit=crop"
+                                alt="E-Commerce" class="proj-img" />
+                            <div class="proj-overlay"><a href="#" class="proj-btn"><i class="bi bi-github"></i>
+                                    Code</a><a href="#" class="proj-btn">Live <i class="bi bi-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="proj-body">
+                            <h5 class="proj-title">ShopEase E-Commerce</h5>
+                            <p class="proj-desc">Full-featured storefront with React, Material UI and Node.js with
+                                payment integration and automated CI/CD deployment pipeline.</p>
+                            <div class="d-flex flex-wrap gap-2 mt-3"><span class="e-tag">React</span><span
+                                    class="e-tag">Material UI</span><span class="e-tag">CI/CD</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="proj-card">
+                        <div class="proj-img-wrap"><img
+                                src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=640&q=80&fit=crop"
+                                alt="Chat" class="proj-img" />
+                            <div class="proj-overlay"><a href="#" class="proj-btn"><i class="bi bi-github"></i>
+                                    Code</a><a href="#" class="proj-btn">Live <i class="bi bi-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="proj-body">
+                            <h5 class="proj-title">CollabSpace Chat</h5>
+                            <p class="proj-desc">Real-time collaboration with React, WebSockets and Azure SignalR.
+                                Threads, reactions, file sharing and presence indicators.</p>
+                            <div class="d-flex flex-wrap gap-2 mt-3"><span class="e-tag">React</span><span
+                                    class="e-tag">WebSockets</span><span class="e-tag">Azure</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="proj-card">
+                        <div class="proj-img-wrap"><img
+                                src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=640&q=80&fit=crop"
+                                alt="CMS" class="proj-img" />
+                            <div class="proj-overlay"><a href="#" class="proj-btn"><i class="bi bi-github"></i>
+                                    Code</a><a href="#" class="proj-btn">Live <i class="bi bi-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="proj-body">
+                            <h5 class="proj-title">PortfolioCMS</h5>
+                            <p class="proj-desc">Headless CMS-powered portfolio generator with Next.js, TypeScript,
+                                dynamic content, SEO tools and one-click Azure deployment.</p>
+                            <div class="d-flex flex-wrap gap-2 mt-3"><span class="e-tag">Next.js</span><span
+                                    class="e-tag">TypeScript</span><span class="e-tag">Git</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="proj-card">
+                        <div class="proj-img-wrap"><img
+                                src="https://images.unsplash.com/photo-1559526324-593bc073d938?w=640&q=80&fit=crop"
+                                alt="Finance" class="proj-img" />
+                            <div class="proj-overlay"><a href="#" class="proj-btn"><i class="bi bi-github"></i>
+                                    Code</a><a href="#" class="proj-btn">Live <i class="bi bi-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="proj-body">
+                            <h5 class="proj-title">FinTrack App</h5>
+                            <p class="proj-desc">Personal finance tracker in React and Bootstrap with Chart.js —
+                                multi-currency support, budgets and exportable CSV/PDF reports.</p>
+                            <div class="d-flex flex-wrap gap-2 mt-3"><span class="e-tag">React</span><span
+                                    class="e-tag">Bootstrap</span><span class="e-tag">Chart.js</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="proj-card">
+                        <div class="proj-img-wrap"><img
+                                src="https://images.unsplash.com/photo-1586717799252-bd134ad00e26?w=640&q=80&fit=crop"
+                                alt="Learning" class="proj-img" />
+                            <div class="proj-overlay"><a href="#" class="proj-btn"><i class="bi bi-github"></i>
+                                    Code</a><a href="#" class="proj-btn">Live <i class="bi bi-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="proj-body">
+                            <h5 class="proj-title">LearnHub Platform</h5>
+                            <p class="proj-desc">E-learning SaaS with Next.js — video streaming, progress tracking,
+                                quizzes and certificate generation via Azure DevOps pipeline.</p>
+                            <div class="d-flex flex-wrap gap-2 mt-3"><span class="e-tag">Next.js</span><span
+                                    class="e-tag">Azure</span><span class="e-tag">CI/CD</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="section-gap">
+        <div class="container">
+            <div class="text-center mb-5">
+                <div class="section-eyebrow mx-auto">Social Proof</div>
+                <h2 class="section-heading">What Clients <em>Say</em></h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="testi-card">
+                        <div class="testi-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i></div>
+                        <p class="testi-body">Chandan delivered our dashboard rewrite ahead of schedule. His React skills
+                            are top-tier and his code reviews have genuinely elevated the whole team's output.</p>
+                        <div class="testi-author"><img
+                                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&q=80&fit=crop&crop=face"
+                                alt="" />
+                            <div><strong>Rahul Sharma</strong><span>CTO, TechNova Solutions</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="testi-card testi-featured">
+                        <div class="testi-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i></div>
+                        <p class="testi-body">Working with Chandan on ShopEase was a pleasure. He brought structure to our
+                            messy codebase, introduced TypeScript, and our deployment failures dropped to near zero.</p>
+                        <div class="testi-author"><img
+                                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&q=80&fit=crop&crop=face"
+                                alt="" />
+                            <div><strong>Priya Menon</strong><span>Product Lead, Pixel Labs</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="testi-card">
+                        <div class="testi-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i></div>
+                        <p class="testi-body">Chandan has an incredible eye for detail. The UI he built for our platform
+                            received constant compliments from clients. He's the benchmark I measure other developers
+                            by.</p>
+                        <div class="testi-author"><img
+                                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=80&q=80&fit=crop&crop=face"
+                                alt="" />
+                            <div><strong>Arun Patel</strong><span>CEO, CodeCraft Agency</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESUME -->
+    <section id="resume" class="section-gap bg-tint">
+        <div class="container">
+            <div class="text-center mb-5">
+                <div class="section-eyebrow mx-auto">CV</div>
+                <h2 class="section-heading">My <em>Resume</em></h2>
+                <p class="section-sub">Qualifications, certifications and key career milestones</p>
+            </div>
+            <div class="resume-box">
+                <div class="row g-5">
+                    <div class="col-lg-6">
+                        <h4 class="res-col-title"><i class="bi bi-mortarboard"></i> Education</h4>
+                        <div class="res-entry"><span class="re-yr">2016 — 2020</span>
+                            <h5>B.Tech in Computer Science</h5>
+                            <p>Delhi Technological University (DTU)</p><small>CGPA 8.4/10 &middot; Web Engineering
+                                &middot; Cloud Computing</small>
+                        </div>
+                        <div class="res-entry"><span class="re-yr">2014 — 2016</span>
+                            <h5>Higher Secondary (XII)</h5>
+                            <p>DPS RK Puram, New Delhi</p><small>92% &middot; Science Stream (PCM + Computer
+                                Science)</small>
+                        </div>
+                        <h4 class="res-col-title mt-5"><i class="bi bi-patch-check"></i> Certifications</h4>
+                        <div class="cert-row"><i class="bi bi-microsoft"></i>
+                            <div><strong>Microsoft Azure Fundamentals AZ-900</strong><span>Microsoft &middot;
+                                    2023</span></div>
+                        </div>
+                        <div class="cert-row"><i class="bi bi-code-square"></i>
+                            <div><strong>Meta Front-End Developer Certificate</strong><span>Coursera / Meta &middot;
+                                    2022</span></div>
+                        </div>
+                        <div class="cert-row"><i class="bi bi-github"></i>
+                            <div><strong>GitHub Actions Certification</strong><span>GitHub &middot; 2023</span></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h4 class="res-col-title"><i class="bi bi-trophy"></i> Key Achievements</h4>
+                        <div class="ach-row"><span class="ach-num">01</span>
+                            <p>Reduced frontend build time by <strong>60%</strong> migrating from CRA to Next.js with
+                                optimised bundling.</p>
+                        </div>
+                        <div class="ach-row"><span class="ach-num">02</span>
+                            <p>Improved Lighthouse performance score from <strong>62 → 96</strong> across production
+                                applications.</p>
+                        </div>
+                        <div class="ach-row"><span class="ach-num">03</span>
+                            <p>Architected a component library with <strong>80+ reusable components</strong> adopted by
+                                3 product teams.</p>
+                        </div>
+                        <div class="ach-row"><span class="ach-num">04</span>
+                            <p>Onboarded and mentored <strong>4 junior developers</strong>, reducing PR review cycles by
+                                35%.</p>
+                        </div>
+                        <div class="ach-row"><span class="ach-num">05</span>
+                            <p>Deployed zero-downtime Azure CI/CD pipeline with automated test coverage of
+                                <strong>90%+</strong>.</p>
+                        </div>
+                        <div class="text-center mt-5">
+                            <a href="#" class="btn-primary-nr"><i class="bi bi-download"></i> Download Full Resume</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section-gap">
+        <div class="container">
+            <div class="text-center mb-5">
+                <div class="section-eyebrow mx-auto">Get In Touch</div>
+                <h2 class="section-heading">Let's <em>Connect</em></h2>
+                <p class="section-sub">Have a project in mind? Let's build something great together.</p>
+            </div>
+            <div class="row g-5 align-items-start">
+                <div class="col-lg-5">
+                    <div class="contact-list">
+                        <div class="c-item">
+                            <div class="c-icon"><i class="bi bi-envelope"></i></div>
+                            <div><span class="c-lbl">Email</span><span class="c-val">Chandan.raj@developer.io</span></div>
+                        </div>
+                        <div class="c-item">
+                            <div class="c-icon"><i class="bi bi-telephone"></i></div>
+                            <div><span class="c-lbl">Phone</span><span class="c-val">+91 98765 43210</span></div>
+                        </div>
+                        <div class="c-item">
+                            <div class="c-icon"><i class="bi bi-geo-alt"></i></div>
+                            <div><span class="c-lbl">Location</span><span class="c-val">New Delhi, India</span></div>
+                        </div>
+                        <div class="c-item">
+                            <div class="c-icon"><i class="bi bi-clock"></i></div>
+                            <div><span class="c-lbl">Availability</span><span class="c-val">Mon – Fri, 10AM – 7PM
+                                    IST</span></div>
+                        </div>
+                    </div>
+                    <div class="mt-5">
+                        <p class="body-para mb-3"><strong>Find me on</strong></p>
+                        <div class="d-flex gap-3">
+                            <a href="#" class="s-icon-lg"><i class="bi bi-github"></i></a>
+                            <a href="#" class="s-icon-lg"><i class="bi bi-linkedin"></i></a>
+                            <a href="#" class="s-icon-lg"><i class="bi bi-twitter-x"></i></a>
+                            <a href="#" class="s-icon-lg"><i class="bi bi-stack-overflow"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="contact-form-box">
+                        <div class="row g-3">
+                            <div class="col-md-6"><label class="cf-lbl">Your Name</label><input type="text"
+                                    class="cf-input" placeholder="John Doe" /></div>
+                            <div class="col-md-6"><label class="cf-lbl">Email Address</label><input type="email"
+                                    class="cf-input" placeholder="john@email.com" /></div>
+                            <div class="col-12"><label class="cf-lbl">Subject</label><input type="text" class="cf-input"
+                                    placeholder="Project Collaboration" /></div>
+                            <div class="col-12"><label class="cf-lbl">Message</label><textarea class="cf-input" rows="5"
+                                    placeholder="Tell me about your project..."></textarea></div>
+                            <div class="col-12"><button class="btn-primary-nr w-100 btn-submit" type="button">Send
+                                    Message <i class="bi bi-send"></i></button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-logo">CR<span class="brand-dot">.</span></div>
+                    <p>Software Developer crafting scalable, beautiful web experiences from New Delhi, India.</p>
+                </div>
+                <div class="footer-nav">
+                    <h6>Navigation</h6>
+                    <a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a
+                        href="#projects">Projects</a><a href="#contact">Contact</a>
+                </div>
+                <div class="footer-nav">
+                    <h6>Connect</h6>
+                    <a href="#"><i class="bi bi-github me-2"></i>GitHub</a>
+                    <a href="#"><i class="bi bi-linkedin me-2"></i>LinkedIn</a>
+                    <a href="#"><i class="bi bi-twitter-x me-2"></i>Twitter</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Chandan Raj. All rights reserved.</p>
+                <p>Built by <span class="heart">♥</span> &amp; Chandan Raj</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="back-top" id="backTop"><i class="bi bi-arrow-up"></i></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
